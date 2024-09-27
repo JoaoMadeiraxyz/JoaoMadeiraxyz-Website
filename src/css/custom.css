@@ -1,0 +1,58 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4c4f69;
+  --ifm-color-primary-dark: #44475e;
+  --ifm-color-primary-darker: #414359;
+  --ifm-color-primary-darkest: #35374a;
+  --ifm-color-primary-light: #545773;
+  --ifm-color-primary-lighter: #575b79;
+  --ifm-color-primary-lightest: #636788;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(147, 153, 178, 0.2);
+  background-color: #eff1f5;
+  color: #4c4f69;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #cba6f7;
+  --ifm-color-primary-dark: #b580f4;
+  --ifm-color-primary-darker: #aa6df2;
+  --ifm-color-primary-darkest: #8934ed;
+  --ifm-color-primary-light: #e1ccfa;
+  --ifm-color-primary-lighter: #ecdffc;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(147, 153, 178, 0.3);
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+.title {
+  color: #cba6f7;
+}
+
+.success-text {
+  color: #a6e3a1;
+}
+
+.warning-text {
+  color: #f9e2af;
+}
+
+.error-text {
+  color: #f38ba8;
+}
+
+.subtle-text {
+  color: #7f849c;
+}
+
+.label {
+  color: #bac2de;
+}
